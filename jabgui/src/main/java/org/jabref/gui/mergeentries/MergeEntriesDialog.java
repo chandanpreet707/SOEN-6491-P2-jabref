@@ -64,4 +64,7 @@ public class MergeEntriesDialog extends BaseDialog<EntriesMergeResult> {
     public void configureDiff(ShowDiffConfig diffConfig) {
         threeWayMergeView.showDiff(diffConfig);
     }
+    public void autoSelectBetterFields() {
+        threeWayMergeView.autoSelectBetterFields();
+    }
 }
